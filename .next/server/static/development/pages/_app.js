@@ -121,7 +121,8 @@ const client = new ApolloClient({
   cache: new InMemoryCache(),
   connectToDevTools: process.browse,
   link: Object(apollo_link_http__WEBPACK_IMPORTED_MODULE_0__["createHttpLink"])({
-    uri: "https://api.wdnsolutions.com",
+    // uri: "https://api.wdnsolutions.com",
+    uri: "http://localhost:4000",
     fetch:  false ? undefined : isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_1___default.a
   })
 });
