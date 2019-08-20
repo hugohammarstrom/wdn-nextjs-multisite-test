@@ -38,8 +38,8 @@ export default class IndexPage extends Component {
   }
 
   render() {
-    let {site} = this.props
-    let {providers} = site
+    let { site={} } = this.props
+    let { providers=[] } = site
     return (
       <div>
         <div>
