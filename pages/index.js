@@ -60,7 +60,7 @@ export default class IndexPage extends Component {
             </Link>
           )
         })}
-        <pre>{JSON.stringify(site, null, 2)}</pre>
+        {/*<pre>{JSON.stringify(site, null, 2)}</pre>*/}
       </div>
     );
   }
