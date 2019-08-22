@@ -90,6 +90,7 @@ export default class IndexPage extends Component {
                 }
               </div>
               <a href={provider.affiliateLink}><span>Play now</span></a>
+              {content.terms ? <p style={{fontSize: 10, maxWidth: 350, opacity: 0.7}}>{content.terms[language]}</p> : null}
             </div>
           </div>
           <h1>{content.title[language].replace("%NICHE", site.niche)}</h1>
